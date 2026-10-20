@@ -1,0 +1,16 @@
+{
+  "name": "claude-bugbash",
+  "owner": {
+    "name": "riwaht"
+  },
+  "metadata": {
+    "description": "Marketplace for the bugbash Claude Code plugin"
+  },
+  "plugins": [
+    {
+      "name": "bugbash",
+      "source": "./",
+      "description": "Find bugs through testing and exploration—charter is locate/reproduce, not fix."
+    }
+  ]
+}

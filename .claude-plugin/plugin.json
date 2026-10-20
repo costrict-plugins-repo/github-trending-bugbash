@@ -1,0 +1,27 @@
+{
+  "name": "bugbash",
+  "description": "Bug-bash plugin: mission brief, intensity modes, risk triage, evidence bars, API/UI subagents—test the running system first, code second; find and reproduce, not fix unless asked.",
+  "version": "0.2.0",
+  "author": {
+    "name": "riwaht"
+  },
+  "homepage": "https://github.com/riwaht/claude-bugbash",
+  "repository": "https://github.com/riwaht/claude-bugbash",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "testing",
+    "bugs",
+    "stress-test",
+    "exploratory-testing",
+    "bug-bash",
+    "api-testing",
+    "ui-testing"
+  ],
+  "commands": ["./commands"],
+  "agents": [
+    "./agents/bugbash-hunter.md",
+    "./agents/bugbash-api.md",
+    "./agents/bugbash-ui.md"
+  ]
+}
